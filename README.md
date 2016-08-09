@@ -19,4 +19,6 @@ HTTPSUpload https://icrs.nbki.ru/inout/cgi-bin/uploadvb.cgi uploads file.zip.enc
 You can display the Internet Explorer Local Area Network (LAN) Settings dialog box by selecting Tools from the Internet Explorer main menu and then selecting Internet Options. Next, select the Connections tab, and click LAN Settings.
 
 ## License
-Licensed under the Apache [License](LICENSE), Version 2.0.
+[Sources](https://github.com/diev/HTTPSUpload) licensed under the Apache [License](LICENSE), Version 2.0.
+
+
