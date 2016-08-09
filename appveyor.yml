@@ -17,9 +17,7 @@ build_script:
 
     Update-AppveyorBuild -Version ("{0}.{1}" -f $ver, $env:APPVEYOR_BUILD_NUMBER)
 
-    $env:PATH = C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;$env:PATH
-
-    csc /out:$env:APPVEYOR_PROJECT_NAME.exe /recurse:*.cs
+    C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\csc /out:$env:APPVEYOR_PROJECT_NAME.exe /recurse:*.cs
 
     7z a $env:APPVEYOR_PROJECT_NAME-v$env:APPVEYOR_BUILD_VERSION.zip *.exe *.md
 artifacts:
