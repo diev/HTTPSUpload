@@ -40,10 +40,10 @@ install:
 
     Write-Host "Building v$env:APPVEYOR_BUILD_VERSION dated $env:BuildDate"
 build_script:
-- ps: >-
-    $env:SystemRoot\Microsoft.NET\Framework\v4.0.30319\csc /out:$env:APPVEYOR_PROJECT_NAME.exe /recurse:*.cs
+- cmd: >-
+    %SystemRoot%\Microsoft.NET\Framework\v4.0.30319\csc /out:%APPVEYOR_PROJECT_NAME%.exe /recurse:*.cs
 
-    7z a $env:APPVEYOR_PROJECT_NAME-v$env:APPVEYOR_BUILD_VERSION.zip *.exe *.md
+    7z a %APPVEYOR_PROJECT_NAME%-v%APPVEYOR_BUILD_VERSION%.zip *.exe *.md
 artifacts:
 - path: '*.zip'
   name: AppZip
