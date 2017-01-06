@@ -23,12 +23,11 @@ HTTPSUpload https://icrs.nbki.ru/inout/cgi-bin/uploadvb.cgi uploads file.zip.enc
 
 Используются системные:
 
-You can display the Internet Explorer Local Area Network (LAN) Settings 
-dialog box by selecting *Tools* from the Internet Explorer main menu and then 
-selecting *Internet Options*. Next, select the *Connections* tab, and click 
-*LAN Settings*.
+You can display the Internet Explorer Local Area Network (LAN) Settings dialog 
+box by selecting *Tools* from the Internet Explorer main menu and then selecting 
+*Internet Options*. Next, select the *Connections* tab, and click *LAN Settings*.
 
 ## License
 
-[Sources](https://github.com/diev/HTTPSUpload) 
-licensed under the Apache [License-2.0](LICENSE).
+[Sources](https://github.com/diev/HTTPSUpload) licensed under the Apache 
+[License-2.0](http://www.apache.org/licenses/LICENSE-2.0 "LICENSE").
