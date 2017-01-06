@@ -1,4 +1,5 @@
 # HTTPSUpload
+
 [![Build status](https://ci.appveyor.com/api/projects/status/mleec5ofn81nlssa?svg=true)](https://ci.appveyor.com/project/diev/httpsupload)
 
 Compatible program to send files to NBKI, Moscow.
@@ -29,5 +30,5 @@ box by selecting *Tools* from the Internet Explorer main menu and then selecting
 
 ## License
 
-[Sources](https://github.com/diev/HTTPSUpload) licensed under the Apache 
-[License-2.0](http://www.apache.org/licenses/LICENSE-2.0 "LICENSE").
+Licensed under the [Apache License, 
+Version 2.0](http://www.apache.org/licenses/LICENSE-2.0 "LICENSE").
