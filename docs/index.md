@@ -1,6 +1,7 @@
 # HTTPSUpload
 
 [![Build status](https://ci.appveyor.com/api/projects/status/mleec5ofn81nlssa?svg=true)](https://ci.appveyor.com/project/diev/httpsupload)
+[![GitHub Release](https://img.shields.io/github/release/diev/HTTPSUpload.svg)](https://github.com/diev/HTTPSUpload/releases/latest)
 
 Compatible program to send files to NBKI, Moscow.
 
