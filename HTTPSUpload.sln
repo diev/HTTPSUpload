@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPSUpload", "HTTPSUpload.csproj", "{43A757BF-7BB2-4B01-BF03-F23FD217947C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43A757BF-7BB2-4B01-BF03-F23FD217947C}.Debug|x86.ActiveCfg = Debug|x86
+		{43A757BF-7BB2-4B01-BF03-F23FD217947C}.Debug|x86.Build.0 = Debug|x86
+		{43A757BF-7BB2-4B01-BF03-F23FD217947C}.Release|x86.ActiveCfg = Release|x86
+		{43A757BF-7BB2-4B01-BF03-F23FD217947C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A516D06-3E90-4F20-805D-FDA93390C049}
+	EndGlobalSection
+EndGlobal

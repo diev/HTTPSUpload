@@ -1,4 +1,4 @@
-// Copyright (c) 2016 Dmitrii Evdokimov. All rights reserved.
+// Copyright (c) 2016-2020 Dmitrii Evdokimov. All rights reserved.
 // Licensed under the Apache License, Version 2.0.
 // Source https://github.com/diev/HTTPSUpload
 
@@ -30,6 +30,11 @@ namespace HTTPSUpload
                 Console.WriteLine("File {0} not found!", file);
                 Environment.Exit(3);
             }
+
+            // Use TLS 1.2
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+            // Ignore any Cert validation
+            ServicePointManager.ServerCertificateValidationCallback += (se, cert, chain, sslerror) => { return true; };
 
             // Create a new WebClient instance.
             var client = new WebClient();
