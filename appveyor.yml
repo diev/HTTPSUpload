@@ -23,7 +23,7 @@ install:
 - ps: >-
     $AssemblyFile = "AssemblyInfo.cs"
 
-    $RegularExpression = [regex] '^\[assembly: AssemblyFileVersion\(\"(\d*\.\d*)\.\d*\.\d*\"\)\]$'
+    $RegularExpression = [regex] '^\[assembly: AssemblyFileVersion\(\"(\d*\.\d*\.\d*)\.\d*\"\)\]$'
 
     $FileContent = Get-Content $AssemblyFile
 
@@ -35,7 +35,7 @@ install:
       }
     }
 
-    Update-AppveyorBuild -Version ("{0} build {1}" -f $env:VERSION, $env:APPVEYOR_BUILD_NUMBER)
+    Update-AppveyorBuild -Version ("{0}.{1}" -f $env:VERSION, $env:APPVEYOR_BUILD_NUMBER)
 
     $CommitDateTime = [datetime]::Parse($env:APPVEYOR_REPO_COMMIT_TIMESTAMP)
 
