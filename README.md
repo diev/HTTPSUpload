@@ -14,6 +14,7 @@ Compatible program to send files to NBKI, Moscow.
 
 В 2020 году понадобилось добавить игнорирование ошибок сертификата сервера.
 Переход на TLS 1.2 потребовал исключить поддержку устаревших версий .NET.
+В 2023 году изменился получатель - изменился адрес в ком.строке.
 
 ## Командная строка
 
@@ -22,6 +23,7 @@ Compatible program to send files to NBKI, Moscow.
 
 ```
 HTTPSUpload https://icrs.nbki.ru/inout/cgi-bin/uploadvb.cgi uploads file.zip.enc
+HTTPSUpload https://icrs.nbki.ru/inout/cgi-bin/uploadvb.cgi uploadRUTDF file.zip.enc
 ```
 
 ## Настройки прокси

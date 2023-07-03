@@ -1,4 +1,4 @@
-// Copyright (c) 2016-2020 Dmitrii Evdokimov. All rights reserved.
+// Copyright (c) 2016-2023 Dmitrii Evdokimov. All rights reserved.
 // Licensed under the Apache License, Version 2.0.
 // Source https://github.com/diev/HTTPSUpload
 
@@ -13,6 +13,7 @@ namespace HTTPSUpload
     class Program
     {
         // HTTPSUpload https://icrs.nbki.ru/inout/cgi-bin/uploadvb.cgi uploads file
+        // HTTPSUpload https://icrs.nbki.ru/inout/cgi-bin/uploadvb.cgi uploadRUTDF file
         public static void Main(string[] args)
         {
             if (args == null || args.Length != 3)
